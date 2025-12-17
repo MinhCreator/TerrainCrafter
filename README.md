@@ -34,7 +34,21 @@ In order to use this tool, you need to add the "terrain_crafter" node to your sc
 * Noise - Select the noise pattern the generation will use. Recommended to have a very low value in the frequency (0.0002-0.0006 on simplex noise for a good starting point)
 ### Nodes included in example_level
 #### Ship
-* This is a ship that flies around that I made. See ![input_mappings](https://github.com/immaculate-lift-studio/Terrain-Crafter/blob/main/addons/terraincrafter/assets/example_ship/input_mappings.txt) for the mappings you need to add in your project settings. Lots of settings are exposed for you to play with. In the future, this controller will be released as a separate plugin.  
+* This is a ship that flies around that I made. See below for the mappings you need to add in your project settings.
+
+
+    throttle_up  
+    throttle_down  
+    pitch_up  
+    pitch_down  
+    engine_toggle  
+    roll_left  
+    roll_right  
+    deploy_gear  
+    anchor  
+    toggle_debug
+
+* Lots of settings are exposed for you to play with. In the future, this controller will be released as a separate plugin.  
 #### Follow Camera
 * If you are using this camera to follow your player, choose the "Target Path" as your player
 #### Debug Camera
